@@ -15,77 +15,113 @@
 <body>
 <header>
     <div class="jumbotron jumbotron-fluid jumb-head">
-            <div id="carouselExampleSlidesOnly col-12 col-md-12 col-xs-12 col-sm-12" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/1.jpeg" class="d-block w-100 img-slide" alt="slid1">
-                    </div>
+        <div id="carouselExampleSlidesOnly col-12 col-md-12 col-xs-12 col-sm-12" class="carousel slide"
+             data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <nav class=" nvb-logo navbar navbar-light ">
+                        محل قرارگیری لوگو
+                    </nav>
+                    <img src="images/1.jpeg" class="d-block w-100 img-slide" alt="slid1">
                 </div>
-    </div>
             </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light head-nav">
-            <a class="navbar-brand " href="#">شمسه نگار</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light head-nav">
+        <a class="navbar-brand " href="#">شمسه نگار</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ارتباط باما</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            منو اصلی
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">متن</a>
-                            <a class="dropdown-item" href="#">متن</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">متن</a>
-                        </div>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            منو اصلی
-                        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ارتباط باما</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        منو اصلی
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">متن</a>
+                        <a class="dropdown-item" href="#">متن</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">متن</a>
+                    </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        منو اصلی
+                    </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                         <a class="dropdown-item" href="#">متن</a>
                         <a class="dropdown-item" href="#">متن</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">متن</a>
                     </div>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="متن خود را وارد کنید..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0 btn-srch-bar" type="submit">جستجو</button>
-                </form>
-            </div>
-        </nav>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="متن خود را وارد کنید..."
+                       aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 btn-srch-bar" type="submit">جستجو</button>
+            </form>
+        </div>
+    </nav>
     </div>
 </header>
-<section class="products-panel">
-    <h2>برترین محصولات</h2>
-    <hr>
-    <div class="col col-md-12 col-xl-12 col-sm-12 prd-main">
-                <div class="box1 col-4">
-                    <h3>عنوان</h3>
-                    <img src="images/sample.jpg" alt="" class="img-thumbnail">
+<div class="container">
+    <div class="row">
+        <section class="products-panel">
+            <h3>برترین محصولات</h3>
+            <hr>
+            <div class="card-group crd-tab">
+                <div class="card">
+                    <img class="card-img-top" src="images/sample.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">عنوان</h5>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان کها</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text">قیمت 20 هزار تومان </small>
+                        <button class="btn btn-success">خرید</button>
+                    </div>
                 </div>
-                <div class="box2 col-4">
-                    <h3>عنوان</h3>
-                    <img src="images/sample2.jpg" alt="" class="img-thumbnail">
+                <div class="card">
+                    <img class="card-img-top" src="images/sample2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">عنوان</h5>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان کها</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text">قیمت 20 هزار تومان </small>
+                        <button class="btn btn-success">خرید</button>
+                    </div>
                 </div>
-                <div class="box3 col-4">
-                    <h3>عنوان</h3>
-                    <img src="images/sample3.jpg" alt="" class="img-thumbnail">
+                <div class="card">
+                    <img class="card-img-top" src="images/sample3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">عنوان</h5>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                            طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان کها</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text">قیمت 20 هزار تومان </small>
+                        <button class="btn btn-success">خرید</button>
+                    </div>
                 </div>
+            </div>
+        </section>
     </div>
+</div>
 
-</section>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

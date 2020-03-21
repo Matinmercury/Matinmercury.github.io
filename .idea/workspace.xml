@@ -20,10 +20,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Shamseh\css\images" />
+      <recent name="D:\Shamseh\images" />
       <recent name="C:\Users\Matix\Desktop\Amo\images" />
       <recent name="C:\Users\Matix\Desktop\Amo\css\images" />
     </key>
@@ -51,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584736688231</updated>
       <workItem from="1584736689402" duration="8093000" />
+      <workItem from="1584746724450" duration="5156000" />
     </task>
     <servers />
   </component>
