@@ -1,4 +1,9 @@
+@font-face {
+    font-family: 'iransans.ttf';
+    src:  url('fonts/iransans.ttf') format('ttf');
+}
 body{
+    font-family: iransans, sans-serif !important;
     background-image: url("images/bg.png");
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -20,13 +25,12 @@ body{
 }
 .head-nav{
     direction: rtl !important;
-    font-family: 'Lalezar', cursive;
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 20px;
 }
 .navbar-light .navbar-brand {
     color: rgba(0,0,0,.9);
-    font-size: 25px;
+    font-size: 19px;
 }
 .prd-main h3{
     margin-top: 15px;
@@ -49,14 +53,18 @@ body{
 .prd-main{
     transition: all 1s;
     direction: rtl;
-    font-family: 'Lalezar', cursive;
     display: flex;
     justify-content:space-around;
     align-content:center;
 }
-.products-panel h3{
+.products-panel h4{
     text-align: center;
-    font-family: 'Lalezar', cursive;
+}
+.service-box h4{
+    text-align: center;
+}
+.service-box p{
+    text-align: center;
     margin-top: 29px;
 }
 .products-panel hr{
@@ -103,4 +111,132 @@ body{
 .nvb-logo a{
     text-decoration: none !important;
     color: #2b2b36 !important;
+}
+.service-box{
+    padding:30px;
+}
+.box-best{
+    padding:35px;
+    background-color: #E7E7E7;
+}
+.jumb-head{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+.service-box{
+    direction: rtl;
+    text-align: center;
+}
+.head-nav{
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+.service-box hr{
+    border-width:thick;
+    width: 120px;
+    border-color: #F17670;
+    margin-bottom: 40px;
+}
+.search-br{
+margin: 0 auto!important;
+display: flex!important;
+justify-content: center !important;
+text-align: right !important;
+width: 59% !important;
+align-items: center !important;
+align-content: center !important;
+}
+.search-br input{
+    text-align: right;
+    direction: rtl;
+}
+.search-br a{
+    text-decoration: none;
+    color: black;
+}
+.search-br span{
+    background-color: #f1594e;
+}
+.search-br a{
+    color: white;
+}
+.inf-search h6{
+    text-align: center;
+    direction: rtl;
+    margin-bottom: 20px;
+    margin-top: 29px;
+}
+.opt-box hr{
+    border-width:thick;
+    width: 120px;
+    border-color: #F17670;
+    margin-bottom: 40px;
+}
+.opt-box h4{
+    text-align: center;
+    direction: rtl;
+    margin-bottom: 20px;
+    margin-top: 29px;
+}
+.opt-box{
+    padding: 25px;
+    direction: rtl;
+    text-align: center;
+    padding-bottom: 0;
+}
+.site-footer {
+    padding: 2em 0;
+    background: #333333;
+    color: white;
+    padding: 20px;
+}
+.crd-tab{
+    margin-bottom: 20px;
+}
+
+.site-footer p{
+    margin-top: 5px;
+    float: right;
+    font-size: 13px;
+}
+.site-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.pro-panela{
+    padding: 25px;
+}
+.pro-panela a{
+    color: black;
+}
+.products-panel2{text-align: right;margin-top: 0}
+.cl-all-btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn-call-all{
+    border-color: #28A645 !important;
+    border-radius: 20px !important;
+    background: #28A645 !important;
+    color: white !important;
+}
+.full-bt-box{
+    padding: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.bt-bt-bt{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    width: 50%;
+}
+.bt-bt-bt button{
+    font-size: 15px;
+}
+.site-footer{
+    margin-top: 20px;
 }
